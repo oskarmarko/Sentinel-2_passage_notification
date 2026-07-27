@@ -2,7 +2,7 @@ name: Check for new Sentinel-2 images
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "6,21,36,51 * * * *"
   workflow_dispatch: {}
 
 permissions:
